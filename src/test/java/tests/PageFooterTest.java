@@ -16,8 +16,8 @@ public class PageFooterTest implements Urls {
             driver.get(Urls.BASE_URL.concat(Urls.LOGIN_FORM_SLUG));
 
             // input login creds
-            HerokuLoginPage loginPage = new HerokuLoginPage(driver);
-            System.out.println(loginPage.footerComponent().getLinkText());
+//            HerokuLoginPage loginPage = new HerokuLoginPage(driver);
+//           System.out.println(loginPage.footerComponent().getLinkText());
 
             //Debug purpose only
             Thread.sleep(2000);
