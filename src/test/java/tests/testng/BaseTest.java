@@ -32,7 +32,7 @@ public class BaseTest {
         if(driver != null) driver.quit();
     }
 
-    @AfterMethod
+/*    @AfterMethod
     public void captureScreenshot(ITestResult result){
         if(result.getStatus() == ITestResult.FAILURE){
             // testMethodName-yyyy-m-dd-hr-mm-sec.png
@@ -69,5 +69,5 @@ public class BaseTest {
                 e.printStackTrace();
             }
         }
-    }
+    }*/
 }
