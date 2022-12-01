@@ -32,6 +32,8 @@ public class StandardComputerComponent extends ComputerEssentialComponent {
                 break;
             }
         }
+    if(fullStrOption == null) {
+        throw new RuntimeException("[ERR] The option " + type + " is not selected");
     }
 
     @Override
