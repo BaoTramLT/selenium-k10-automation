@@ -10,7 +10,7 @@ import java.time.Duration;
 public class DriverFactory {
 
     public static WebDriver getChromeDriver() {
-        String currentProjectLocation = System.getProperty("user.dir");
+/*        String currentProjectLocation = System.getProperty("user.dir");
         String chromeDriverLocation;
 
         if (OS.isFamilyMac()) {
@@ -22,7 +22,7 @@ public class DriverFactory {
         }
 
         String chromeAbsoluteLocatin = currentProjectLocation.concat(chromeDriverLocation);
-        System.setProperty("webdriver.chrome.driver", chromeAbsoluteLocatin);
+        System.setProperty("webdriver.chrome.driver", chromeAbsoluteLocatin);*/
 
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--incognito");
